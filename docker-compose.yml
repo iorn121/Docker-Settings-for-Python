@@ -1,6 +1,6 @@
 version: '3'
 services:
-  web:
+  app:
     build: .
     container_name: 'app'
     working_dir: '/root/src'
