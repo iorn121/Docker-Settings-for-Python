@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build: .
+    container_name: 'app'
+    working_dir: '/root/src'
+    tty: true
+    volumes:
+      - ./src:/root/src
